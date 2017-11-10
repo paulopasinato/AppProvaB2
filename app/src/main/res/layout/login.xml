@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Usuário"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textoUsuario" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/campoUsuario" />
+
+    <TextView
+        android:text="Senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textoSenha" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/campoSenha" />
+
+        <Button
+            android:text="Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/botaoLogin" />
+
+    <TextView
+        android:id="@+id/aluno1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marcel Nunes R. Oliveira - R.A: 1520019"
+        android:textSize="40px"
+        android:layout_marginTop="100px"/>
+
+    <TextView
+        android:id="@+id/aluno2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paulo Sergio S. Pasinato - R.A: 1520016"
+        android:textSize="40px"/>
+
+</LinearLayout>
