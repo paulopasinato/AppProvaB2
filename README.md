@@ -1,5 +1,5 @@
-# AppProvaB1
-Prova B1 - Desenvolvimento para Dispositivos Móveis
+# AppProvaB2
+Prova B2 - Desenvolvimento para Dispositivos Móveis
 
 Alunos:
 
